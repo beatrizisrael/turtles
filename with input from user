@@ -1,0 +1,18 @@
+# Turtle exercise
+
+color = input("Choose background color: ")
+color2 = input("Choose your turtle's color: ")
+size = int(input("Choose your turtle's size: "))
+import turtle
+wn = turtle.Screen()
+wn.bgcolor(color)
+
+rei = turtle.Turtle()
+rei.color(color2)
+rei.pensize(size)
+
+rei.forward(50)
+rei.left(120)
+rei.forward(50)
+
+wn.mainloop()
