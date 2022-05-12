@@ -1,0 +1,9 @@
+import turtle
+wn = turtle.Screen
+wn = turtle.Screen()
+alex = turtle.Turtle()
+for c in ["pink", "cyan", "red", "orange"]:
+    alex.color(c)
+    alex.forward(50)
+    alex.left(90)
+wn.mainloop()
