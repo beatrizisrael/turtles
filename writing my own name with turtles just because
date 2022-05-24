@@ -1,6 +1,7 @@
 import turtle
 wn = turtle.Screen()
 wn.bgcolor("cyan")
+wn.setup(width=1.0, height=1.0)           #apparently this makes it widescreen#
 bea = turtle.Turtle()
 bea.shape("turtle")
 bea.color("violet red")
