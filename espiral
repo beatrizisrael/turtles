@@ -1,0 +1,14 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("powder blue")
+tugas = turtle.Turtle()
+tugas.shape("turtle")
+tugas.color("plum4")
+
+size=30
+for i in range(40):
+ size = size + 5
+ tugas.forward(size)
+ tugas.right(24)
+
+wn.mainloop()
