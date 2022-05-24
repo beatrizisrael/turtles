@@ -1,0 +1,85 @@
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("cyan")
+bea = turtle.Turtle()
+bea.shape("turtle")
+bea.color("violet red")
+bea.pensize(5)
+
+#Letter B#
+
+bea.stamp()
+bea.left(90)
+bea.forward(200)
+
+bea.stamp()
+bea.right(120)
+bea.forward(100)
+
+bea.stamp()
+bea.right(120)
+bea.forward(100)
+
+bea.stamp()
+bea.left(120)
+bea.forward(100)
+
+bea.stamp()
+bea.right(120)
+bea.forward(100)
+
+bea.left(150)
+bea.penup()
+bea.forward(150)
+bea.pendown()
+bea.left(90)
+
+#Letter E#
+
+bea.stamp()
+bea.forward(200)
+bea.right(90)
+
+bea.stamp()
+bea.forward(100)
+
+for i in range(2):
+    bea.stamp()
+    bea.forward(-100)
+    bea.right(90)
+    bea.forward(100)
+    bea.left(90)
+    bea.forward(100)
+bea.stamp()
+
+bea.penup()
+bea.forward(80)
+bea.pendown()
+bea.left(70)
+
+#Letter A#
+
+bea.stamp()
+bea.forward(200)
+
+bea.stamp()
+bea.right(140)
+bea.forward(200)
+
+bea.stamp()
+bea.left(-180)
+bea.forward(90)
+bea.left(70)
+bea.forward(80)
+bea.stamp()
+bea.right(180)
+bea.forward(80)
+bea.stamp()
+
+bea.penup()
+
+wn.mainloop()
+
+#This is my first try at drawing my name with turtles lol.#
+#steps and angles kinda arbitrary just went with what looked best.#
+#could be prettier, i did try to make it somewhat organised tho#
