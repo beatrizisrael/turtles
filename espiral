@@ -4,6 +4,7 @@ wn.bgcolor("powder blue")
 tugas = turtle.Turtle()
 tugas.shape("turtle")
 tugas.color("plum4")
+tugas.pensize(5)
 
 size=30
 for i in range(40):
